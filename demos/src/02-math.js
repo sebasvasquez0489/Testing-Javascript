@@ -11,16 +11,15 @@ function divide(a, b) {
 }
 
 function divideZero(a, b) {
-  if(b === 0){
+  if (b === 0) {
     return null;
   }
   return a / b;
 }
 
-
 module.exports = {
   sum,
   multiply,
   divide,
-  divideZero
+  divideZero,
 };
